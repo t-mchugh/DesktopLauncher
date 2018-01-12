@@ -20,8 +20,12 @@ DISCONNECTED can be of two types: Group or Solo, where Group implies more than o
 
 It is important to note that this solution is easy to use for both the developer and end user. For the developer configure the three constants and rebuild the solution. Then run the initial build app (in this solution) to create the initial repository. If CONNECTED the repository is saved to its final production place. If DISCONNECTED the repository is bundled and an e-mail built (just missing TO) for a local admin who must run the final repository placement app (in this solution, or it could be on multiple web sites). User apps are placed into the repository by the developer or local admin (again depending on connection type).
 
-Initial end user access to their app comes from via an e-mail link, from the developer, local admin or possibly the help desk. That e-mail is another app in this solution.
+Initial end user access to their app comes from via an e-mail link, from the developer, local admin or possibly the help desk. That e-mail is created by another app in this solution.
 
 Subsequent end user access to their app is from a desktop shortcut placed on the desktop when the e-mail link is clicked.
 
 One of the features of this solution is that when a user app is changed, the user is usually not aware. A change causes the repository to be updated with new file(s), the console app copies new files to the local profile and then runs whatever it finds in the local profile.
+
+There is a simple way to obsolete existing user apps when needed.
+
+Finally all three distribution types have been used in production environments. So this system has had real world tests.
